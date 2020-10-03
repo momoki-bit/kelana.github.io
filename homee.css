@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: #eae7dc;
+    font-family: 'Courier New', Courier, monospace;
+    color: #e85a4f;
+}
+
+
+.h1 {
+  font-style: oblique;
+  font-variant: small-caps;
+  font-weight: bolder;
+  letter-spacing: 8px;
+  border-width: 100px;
+  
+}
+
+#foto {
+  border-radius: 5px;
+}
+
+#nama {
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    color: #e98074;
+    font-variant: small-caps;
+    font-size: larger;
+    
+}
+
+#Perkenalan {
+    text-align: center;
+    list-style-position: outside;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: solid 10px #e85a4f;
+    border-style: double ;
+    border-radius: 120px 20px 120px 20px ;
+    padding: 10px;
+    border-width: 20px;
+    width: 525px;
+    height: 900px;
+}
+
+#list2 {
+    margin-left: 35px;
+    background-color: #d8c3a5 ;
+    text-align: center;
+    border-radius: 25px;
+    max-width: 55%;
+}
+
+.saya {
+    background-color:#eae7dc;
+    border-radius: 25px;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+  }
+
+  #sekolah {
+    background-color:  #eae7dc;
+    border-radius: 25px;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+  }
+  
+
+#listnama {
+    text-align: left;
+}
+
+.flex-container {
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: flex;
+    float: left;
+  }
+
+  .flex-start { 
+  -webkit-align-items: flex-start;
+  align-items: flex-start; 
